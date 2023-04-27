@@ -9,7 +9,7 @@ function App() {
         <Suspense fallback={<></>}>
           <Routes>
             {privaryRoute.map((route, index) => {
-              let Layout = DefaultLayout;
+              const Layout = DefaultLayout;
               const Page = route.element;
 
               return (

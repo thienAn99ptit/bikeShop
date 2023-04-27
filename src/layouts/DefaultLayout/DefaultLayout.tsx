@@ -1,9 +1,15 @@
+import Banner from "./Banner/Banner";
 import Header from "./Header/Header";
 
-function DefaultLayout({ children }) {
+interface DefaultLayoutProp {
+  children: any;
+}
+
+function DefaultLayout({ children }: DefaultLayoutProp) {
   return (
     <div>
-      <Header></Header>
+      <Header />
+      <Banner />
       <div>{children}</div>
     </div>
   );

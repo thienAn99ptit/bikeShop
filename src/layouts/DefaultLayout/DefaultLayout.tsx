@@ -1,8 +1,9 @@
+import { ReactNode } from "react";
 import Banner from "./Banner/Banner";
 import Header from "./Header/Header";
 
 interface DefaultLayoutProp {
-  children: any;
+  children: ReactNode;
 }
 
 function DefaultLayout({ children }: DefaultLayoutProp) {

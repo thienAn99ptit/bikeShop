@@ -6,6 +6,7 @@ import {
 import { Image } from "antd";
 import { Link } from "react-router-dom";
 import { Button } from "../../../components/button";
+import Menu from "../../../components/menu";
 
 function Header() {
   return (
@@ -36,20 +37,7 @@ function Header() {
         </div>
       </div>
       <div className="container py-3 flex justify-between items-center ">
-        <ul className="flex gap-x-2">
-          <li className="text-white text-sm font-normal cursor-pointer">
-            <Link to={"#"}>Sport</Link>
-          </li>
-          <li className="text-white text-sm font-normal cursor-pointer">
-            <Link to={"#"}>Category</Link>
-          </li>
-          <li className="text-white text-sm font-normal cursor-pointer">
-            <Link to={"#"}>Collection</Link>
-          </li>
-          <li className="text-white text-sm font-normal cursor-pointer">
-            <Link to={"#"}>Included</Link>
-          </li>
-        </ul>
+        <Menu />
         <Button content="Special Offer" className="uppercase" />
       </div>
     </header>

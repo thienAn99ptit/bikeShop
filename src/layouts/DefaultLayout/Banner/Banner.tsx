@@ -9,7 +9,7 @@ function Banner() {
     console.log(currentSlide);
   };
   return (
-    <section className="bg-[#cacdd3] ">
+    <section className="bg-[#cacdd3] mb-[70px]">
       <div className="container ">
         <Carousel afterChange={onChange}>
           <Row

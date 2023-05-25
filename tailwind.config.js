@@ -8,6 +8,7 @@ export default {
         secondary: "#e36358",
         greenColor: "#7fbc1e",
         blackTxt: "#333",
+        primaryTxt: "#232323",
       },
       borderWidth: {
         DEFAULT: "1px",

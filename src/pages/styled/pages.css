@@ -1,0 +1,12 @@
+#product .ant-collapse {
+  background-color: transparent;
+  border: 0px solid #d9d9d9;
+  border-bottom: 0;
+  border-radius: 0px;
+}
+#product .ant-collapse-item {
+  border-bottom: 0px solid #d9d9d9;
+}
+#product .ant-collapse .ant-collapse-content {
+  border-top: 0px solid #d9d9d9;
+}

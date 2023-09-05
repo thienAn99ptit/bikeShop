@@ -10,6 +10,7 @@ function CardItem2() {
           <img
             src="https://cdn.shopify.com/s/files/1/0055/4021/6920/products/2_253b1010-ca59-406f-a047-edb3af4086c9_720x.jpg?v=1627367033"
             alt=""
+            loading="lazy"
           />
         </Link>
       </Col>

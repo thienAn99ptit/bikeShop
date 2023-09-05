@@ -19,6 +19,9 @@ export default {
         6: "6px",
         8: "8px",
       },
+      fontFamily: {
+        'main': ['Poppins', 'sans-serif'],
+      }
     },
   },
   plugins: [],

@@ -14,7 +14,7 @@ function Home() {
       <Banner />
       <div className="container">
         <Headline title="trending products" subTitle="products" />
-        <div className="grid grid-cols-4 gap-6 mb-[30px]">
+        <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-6 mb-[30px]">
           <CardItem />
           <CardItem />
           <CardItem />
@@ -40,14 +40,15 @@ function Home() {
         </div>
         <Headline title="OUR RIDERS" subTitle="TESTIMONIALS" />
         <div className="grid grid-cols-2 gap-x-4">
-          <Row className="bg-[#f7f7f7] group">
+          <Row className="bg-[#f7f7f7] group" align={"middle"}>
             <Col span={8}>
               <img
                 src="https://cdn.shopify.com/s/files/1/0055/4021/6920/files/t1.png?v=1627384172"
                 alt=""
+                loading="lazy"
               />
             </Col>
-            <Col span={16} align="middle" className="pointer-events-none">
+            <Col span={16} className="pointer-events-none">
               <p className="text-primaryTxt text-lg font-normal mb-1">
                 LUIES CHARLS
               </p>
@@ -61,14 +62,15 @@ function Home() {
               </p>
             </Col>
           </Row>
-          <Row className="bg-[#f7f7f7] group">
+          <Row className="bg-[#f7f7f7] group" align={"middle"}>
             <Col span={8}>
               <img
                 src="https://cdn.shopify.com/s/files/1/0055/4021/6920/files/t1.png?v=1627384172"
                 alt=""
+                loading="lazy"
               />
             </Col>
-            <Col span={16} align="middle" className="pointer-events-none">
+            <Col span={16} className="pointer-events-none">
               <p className="text-primaryTxt text-lg font-normal mb-1">
                 LUIES CHARLS
               </p>
